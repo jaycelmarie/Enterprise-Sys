@@ -19,5 +19,10 @@ text node which contains the content of the element as text
 Example:
 ![alt text](img/example.png?raw=true "Example Parsing")
 
+
 Exercise 1: 
 ![alt text](img/exercise-1.png?raw=true "Exercise 1")
+
+#############################################
+Tree Diagram for order:
+![alt text](img/order-tree-diagram.png?raw=true "Order tree diagram")
