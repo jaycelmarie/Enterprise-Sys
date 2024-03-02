@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<playlist>
+    <track length="4:11">
+        <id>1</id>
+        <title>Afraid</title>
+        <artist>The Neighbourhood</artist>
+        <album>I Love You.</album>
+        <addedDate>2012-10-08</addedDate>
+    </track>
+    <track length="2:33">
+        <id>2</id>
+        <title>Kill Bill</title>
+        <artist>SZA</artist>
+        <album>SOS</album>
+        <addedDate>2022-12-09</addedDate>
+    </track>
+    <track length="2:21">
+        <id>3</id>
+        <title>Good In Goodbye</title>
+        <artist>Madison Beer</artist>
+        <album>Life Support</album>
+        <addedDate>2021-02-26</addedDate>
+    </track>
+</playlist>
+
+<!-- a music playlist of song tracks with each track entry in the
+playlist having information about the title, artist and album. Each track also has additional
+information about when it was added and where the music file is (e.g. location on disk) and
+an id to uniquely identify the track -->
