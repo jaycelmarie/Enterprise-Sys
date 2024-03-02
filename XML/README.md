@@ -6,6 +6,6 @@ playlist having information about the title, artist and album. Each track also h
 information about when it was added and where the music file is (e.g. location on disk) and
 an id to uniquely identify the track
 
-![alt text](/../main/playlist-tree-diagram.png?raw=true "Tree Diagram")
+![alt text](XML/img/playlist-tree-diagram.png?raw=true "Tree Diagram")
 
 #############################################
