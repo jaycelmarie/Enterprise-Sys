@@ -9,3 +9,15 @@ an id to uniquely identify the track
 ![alt text](img/playlist-tree-diagram.png?raw=true "Tree Diagram")
 
 #############################################
+
+PART 2 - XML Parsing
+
+An XML document is a tree structure. The tree structure is made up of nodes. The main node types
+are Element nodes, Text nodes and Attribute nodes. An Element node in the tree will have a child
+text node which contains the content of the element as text
+
+Example:
+![alt text](img/example.png?raw=true "Example Parsing")
+
+Exercise 1: 
+![alt text](img/exercise-1.png?raw=true "Exercise 1")
