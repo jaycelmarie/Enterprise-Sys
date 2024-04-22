@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<invoice    xmlns="http://www.tudublin.ie"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.tudublin.ie invoice.xsd">
+
+<!--
+ Invoice number
+ Invoice date
+ Invoice Total
+ Issued by
+ Bill to -> name, address
+ Item -> item name, quantity, price
+ Payment Info
+-->
+
+    <invoice_number>1</invoice_number>
+    <invoice_date>2020-02-12</invoice_date> <!-- XML format: YYYY-MM-DD -->
+    <invoice_total>20.00</invoice_total>
+    <issued_by>John Doe</issued_by>
+    <bill_to>
+        <name>Jane Smith</name>
+        <address>
+            <number>3</number>
+            <street>Bothar na Tra</street>
+            <city>Dublin</city>
+        </address>
+    </bill_to>
+    <item>
+        <item_name>Pillow</item_name>
+        <quantity>3</quantity>
+        <price>5.00</price>
+    </item>
+    <payment_information>Leave by door</payment_information>
+</invoice>
