@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="order">
+<!-- Define type of element. Parent element = complexType, child elements = sequence-->
+ <xs:complexType>
+  <xs:sequence>
+   <xs:element name="person" type="xs:string"/>
+   <xs:element name="shipto">
+     <xs:complexType>
+      <xs:sequence>
+         <xs:element name="name" type="xs:string"/>
+         <xs:element name="address" type="xs:string"/>
+         <xs:element name="city" type="xs:string"/>
+         <xs:element name="country" type="xs:string"/>
+      </xs:sequence>
+     </xs:complexType>
+    </xs:element> <!-- End Element-->
+    <!-- Start new element + complexType + sequence-->
+    <xs:element name="item">
+     <xs:complexType>
+      <xs:sequence>
+       <xs:element name="name" type="xs:string"/>
+       <xs:element name="id" type="xs:string"/>
+       <xs:element name="note" type="xs:string" minOccurs="0"/> <!-- minOccurs -> set to 0 means the element is optional. 
+       if set to 1 or higher, element is required. MUST APPEAR THAT MANY TIMES WITHIN ITS PARENT ELEMENT.-->
+       <xs:element name="quantity" type="xs:positiveInteger"/>
+       <xs:element name="price" type="xs:decimal"/>
+      </xs:sequence>
+     </xs:complexType>
+    </xs:element>
+    </xs:sequence>
+    <!-- Specify order ID as required!-->
+  <xs:attribute name="orderid" type="xs:string" use="required"/>
+ </xs:complexType>
+</xs:element>
+
+</xs:schema>
