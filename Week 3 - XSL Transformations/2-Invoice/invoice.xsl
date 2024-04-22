@@ -9,9 +9,11 @@
     <h2>Invoice Date: <xsl:value-of select="invoice/invoice_date"/></h2>
 
     <xsl:for-each select="invoice/item">
+
         <b>Item: </b><xsl:value-of select="item_name"/>
         <p>Price: <xsl:value-of select="price"/></p>
         <p>Quantity: <xsl:value-of select="quantity"/></p><br/>
+        
     </xsl:for-each>
 
     <h2>Payment Info: <xsl:value-of select="invoice/payment_information"/></h2>
