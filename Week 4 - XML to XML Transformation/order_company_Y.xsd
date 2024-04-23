@@ -61,7 +61,16 @@
 
         <!-- The total value of the order (total price * quantity for all items) -->
       <xs:element name="order_total">
-        <xs:simpleType>
+
+        <xs:simpleType> <!-- refers to a data type that does not have any internal structure beyond that defined by XML Schema -->
+        <!-- 
+
+          <xs:restriction>: This is an XML Schema element used to restrict the values of a simple type.
+          'base="xs:decimal": This attribute specifies the base type from which the new type is derived. 
+           In this case, the base type is 'xs:decimal', 
+          which is a built-in XML Schema data type representing decimal numbers.
+
+        -->
           <xs:restriction base="xs:decimal">
             <xs:minExclusive value="0"/>
           </xs:restriction>
